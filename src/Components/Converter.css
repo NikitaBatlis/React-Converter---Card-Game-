@@ -1,0 +1,43 @@
+ 
+  .form-container {
+    background-color:#f8f9fa;
+    box-sizing: border-box;
+    position: absolute;
+    width: 50%;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #dfdfdf ;
+    border-radius: 8px;
+    padding-bottom: 2rem 0 2em 0;
+    padding-top: 2rem;
+  }
+
+  h3 {
+    padding-bottom: 1rem;
+  }
+
+  select {
+    border: 1px solid rgb(150, 150, 150);
+  }
+
+  #baseCurrency {
+    margin-left: 10px;
+  }
+
+  input {
+    border: 1px solid rgb(150, 150, 150);
+  }
+  
+  .form {
+    padding-bottom: 2rem;
+  }
+  
+  #result-text {
+    padding-bottom: 2rem;
+
+  }
